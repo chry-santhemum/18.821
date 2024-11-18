@@ -1,0 +1,76 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2027,         68]
+NotebookOptionsPosition[      1680,         54]
+NotebookOutlinePosition[      2075,         70]
+CellTagsIndexPosition[      2032,         67]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"function", " ", "1"}], ":", " ", 
+     RowBox[{"1", "/", "x"}]}], ",", " ", 
+    RowBox[{
+     RowBox[{"function", " ", "2"}], ":", " ", 
+     RowBox[{"log", 
+      RowBox[{"(", 
+       RowBox[{"x", "+", "1"}], ")"}]}]}], ",", 
+    RowBox[{"clow", "/", 
+     RowBox[{"chigh", ":", " ", 
+      RowBox[{"convolve", " ", "range"}]}]}], ",", " ", 
+    RowBox[{"rlow", "/", 
+     RowBox[{"rhigh", ":", " ", "range"}]}]}], "*)"}], "\[IndentingNewLine]", 
+  
+  RowBox[{
+   RowBox[{"DiscreteConvolve", "[", 
+    RowBox[{
+    "f1", ",", "f2", ",", " ", "x", ",", " ", "clow", ",", "chigh", ",", 
+     "rlow", ",", "rhigh", ",", "res"}], "]"}], ":=", 
+   RowBox[{"Module", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"mat_", "=", 
+       RowBox[{"List", "[", "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Do", "[", "]"}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.9409529962481422`*^9, 3.9409530647057343`*^9}, {
+  3.9409531138488293`*^9, 
+  3.9409532054612637`*^9}},ExpressionUUID->"7154a9e4-5c9c-4831-9c93-\
+b42c51d91174"]
+},
+WindowSize->{808, 816},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"7920925a-b6aa-428b-bdde-c7e160fbbc5d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1118, 32, 74, "Input",ExpressionUUID->"7154a9e4-5c9c-4831-9c93-b42c51d91174"]
+}
+]
+*)
+
